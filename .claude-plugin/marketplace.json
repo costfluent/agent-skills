@@ -1,0 +1,14 @@
+{
+  "name": "costfluent",
+  "owner": { "name": "Costfluent", "url": "https://costfluent.com" },
+  "metadata": {
+    "description": "Costfluent's plugin for Claude Code: task skills and the Costfluent MCP server."
+  },
+  "plugins": [
+    {
+      "name": "costfluent",
+      "source": "./",
+      "description": "Investigate cloud and AI spend, budgets, savings, commitments and Kubernetes efficiency in Costfluent."
+    }
+  ]
+}
