@@ -1,0 +1,27 @@
+{
+  "name": "costfluent",
+  "version": "0.1.1",
+  "description": "Investigate cloud and AI spend, budgets, savings, commitments and Kubernetes efficiency in Costfluent from your coding agent, through the Costfluent MCP server's read tools.",
+  "author": { "name": "Costfluent", "url": "https://costfluent.com" },
+  "homepage": "https://docs.costfluent.com/developers/agent-skills",
+  "repository": "https://github.com/costfluent/agent-skills",
+  "license": "Apache-2.0",
+  "keywords": ["finops", "cloud-costs", "mcp", "costfluent"],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "Costfluent API token",
+      "description": "A Costfluent API token from the Read only preset. Kept in your system keychain.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "costfluent": {
+      "command": "costfluent-mcp",
+      "env": {
+        "COSTFLUENT_API_TOKEN": "${user_config.api_token}"
+      }
+    }
+  }
+}
