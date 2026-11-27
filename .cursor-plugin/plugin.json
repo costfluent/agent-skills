@@ -1,7 +1,7 @@
 {
   "name": "costfluent",
   "displayName": "Costfluent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Investigate cloud and AI spend, budgets, savings, commitments and Kubernetes efficiency in Costfluent from Cursor. Connect the Costfluent MCP server with `costfluent mcp install --client cursor`.",
   "author": { "name": "Costfluent", "url": "https://costfluent.com" },
   "homepage": "https://docs.costfluent.com/developers/agent-skills",

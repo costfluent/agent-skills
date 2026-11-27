@@ -30,7 +30,7 @@ terraform {
   required_providers {
     costfluent = {
       source  = "costfluent/costfluent"
-      version = "~> 0.6.0"
+      version = "~> 0.7.0"
     }
   }
 }
@@ -88,6 +88,6 @@ pending, or the workspace not associated). The tools do not list connections or 
 - https://docs.costfluent.com/developers/terraform
 - https://docs.costfluent.com/connect/aws
 - https://docs.costfluent.com/connect/azure
-- https://docs.costfluent.com/connect/gcp
+- https://docs.costfluent.com/connect/google-cloud
 - https://docs.costfluent.com/connect/manage-connections
 - https://docs.costfluent.com/api/authentication
